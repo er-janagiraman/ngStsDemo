@@ -1,0 +1,15 @@
+<div class="container-fluid">
+    <nav class="navbar mb-3 navbar-light sticky-md-top" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+        <div>
+            <button class="btn btn-primary ms-5 mt-2" [routerLink]="['/default/register']">Register</button>
+            <button class="btn btn-info ms-5 mt-2" [routerLink]="['/default/table']">Table</button>
+            <!-- <button class="btn btn-info ms-5 mt-2" [routerLink]="['/default/templete']">Templete</button> -->
+            <button class="btn btn-danger float-end ms-5 mt-2" [routerLink]="['/login']">LogOut</button>
+        </div>
+    </div>
+    </nav> 
+
+    <router-outlet></router-outlet> 
+     
+</div>
